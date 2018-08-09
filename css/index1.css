@@ -1,0 +1,202 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-11 18:00:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-11 23:14:10
+*/
+@import url('base.css');
+header{
+	width: 100%;
+	height: 520px;
+	position: relative;
+	overflow: hidden;
+}
+header img{
+	width: 100%;
+}
+nav{
+	width: 100%;
+	height: 32px;
+	background-color: #0F1932;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-direction: row-reverse;
+}
+nav .con{
+	width: 850px;
+	height: 32px;
+	margin-right: 22px;
+}
+nav .con .sites{
+	display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    font: 700 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #fff;
+    text-decoration: underline;
+    margin: 6px 0 0 22px;
+}
+nav .con .sites:nth-child(10){
+	margin: 0 21px 0 21px;
+	font-size: 13px;
+    opacity: .6;
+    color: #fff;
+    text-decoration: none;
+}
+nav .con .sites:nth-child(15){
+	
+}
+.mainimg{
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+.mainimg .zhutu{
+	width: 270px;
+	height: 180px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.search{
+	width: 100%;
+	height: 54px;
+	position: absolute;
+	top: 260px;
+	left: 0;
+}
+.searchbox{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 600px;
+	height: 54px;
+	margin: 0 auto;
+}
+input{
+	width: 600px;
+	height: 54px;
+	background: rgba(0, 0, 0, 0);
+}
+input:focus{
+	outline: none;
+}
+.searchbox span{
+	display: block;
+	width: 20px;
+    height: 20px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+    right: 24px;
+    background: url('../img/sousuo.png') no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.hotquery{
+	width: 100%;
+	height: 14px;
+	position: absolute;
+	top: 344px;
+	left: 0;
+	display: flex;
+	
+}
+.hotquery .box{
+	width: 348px;
+	height: 14px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.hotquery .box span{
+	cursor: pointer;
+	display: inline-block;
+	color: #fff;
+	font-family: "微软雅黑","宋体",Arial;
+	font-size: 14px;
+    line-height: 1;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+}
+.wrapper_list{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+.wrapper_list .imgheader{
+	width: 1266px;
+	height: 33px;
+	margin: 0 auto;
+	padding: 30px 0;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper_list .imgheader span{
+	font-size: 22px;
+	font-family: "微软雅黑","宋体",Arial;
+}
+.wrapper_list .imgheader .imgtab{
+	width: 120px;
+	height: 36px;
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper_list .imgheader .imgtab a:nth-child(1){
+	display: block;
+	width: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    border-bottom: 2px solid #000;
+    font-family: "微软雅黑","宋体",Arial;
+}
+.wrapper_list .imgheader .imgtab a:nth-child(2){
+	width: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #d4d4d4;
+    font-family: "微软雅黑","宋体",Arial;
+}
+.wrapper_list .imgheader .imgtab a:nth-child(2):hover{
+	color: #ff6700;
+}
+.wrapper_list .imglist{
+	width: 1266px;
+	height: 816px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+}
+.wrapper_list .imglist img{
+	cursor: pointer;
+	transition: all .5s
+}
+.wrapper_list .imglist img:hover{
+	transform: scale(1.05)
+}
+footer{
+	width: 100%;
+	height: 22px;
+	padding: 20px 0;
+	background-color: #fff;
+	text-align: center;
+	font-family: "微软雅黑","宋体",Arial;
+	line-height: 18px;
+	font-size: 10px;
+}
+footer a{
+	font-family: "微软雅黑","宋体",Arial;
+	color: #000;
+	line-height: 18px;
+}

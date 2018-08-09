@@ -1,0 +1,349 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-18 18:41:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-18 22:26:12
+*/
+@import url('base.css');
+header{
+	width: 100%;
+	height: 130px;
+	padding-top: 30px;
+	background: #6A3F75;
+}
+.headbox{
+	width: 1030px;
+	height: 130px;
+	background-color: #fff;
+	margin: 0 auto;
+	
+}
+.headbox .headimg{
+	width: 700px;
+	height: 80px;
+	margin: 0 auto;
+}
+.nav{
+	width: 1030px;
+	height: 47px;
+	margin: 0 auto;
+	
+}
+.nav ul{
+	display: flex;
+	justify-content: space-between;
+}
+.nav li{
+	width: 128.75px;
+	height: 47px;
+	background: #71A51D;
+	text-align: center;
+}
+.nav li:nth-child(2){
+	background: #6A3F75;
+}
+.nav li:hover{
+	opacity: .8;
+}
+.nav li a{
+	display: block;
+	width: 128.75px;
+	height: 47px;
+	font-size: 14px;
+    color: #fff;
+    line-height: 47px;
+}
+.con{
+	width: 1010px;
+	height: 326px;
+	padding: 10px 10px 0;
+	margin: 0 auto;
+	background-color: #fff;
+	
+}
+.con .lunguo{
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 1010px;
+	height: 316px;
+
+}
+.con .lunguo .left{
+	width: 42px;
+	height: 43px;
+	position: absolute;
+	top: 127px;
+	left: 0;
+	background: #393939 url('../img/index2/lunguo2.png') no-repeat;
+	opacity: 0.2!important;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.con .lunguo .left:hover{
+	opacity: 1!important;
+	background-color: #71A51D;
+}
+.con .lunguo .right{
+	width: 42px;
+	height: 43px;
+	position: absolute;
+	top: 127px;
+	right: 0;
+	background: #393939 url('../img/index2/lunguo3.png') no-repeat;
+	opacity: 0.2!important;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.con .lunguo .right:hover{
+	opacity: 1!important;
+	background-color: #71A51D;
+}
+main{
+	width: 1010px;
+	height: 593px;
+	margin: 0px auto;
+	padding: 10px 10px 0px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+main .left{
+	width: 23.5%;
+	height: 469px;
+	
+}
+main .left .title{
+	width: 100%;
+	height: 36px;
+	height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #71a51d !important;
+}
+main .left .title p{
+	font-size: 14px;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+}
+main .left .top{
+	height: auto;
+	padding: 10px;
+	border: 1px solid #cecece;
+}
+main .left .top li{
+	line-height: 36px;
+	box-sizing: content-box;
+}
+main .left .top li a {
+	display: block;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 15px;
+    color: #333;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 12px;
+}
+main .left .bottom{
+	padding-top: 30px;
+	width: 100%;
+	height: 233px;
+}
+main .left .bottom .head{
+	width: 100%;
+	height: 36px;
+	height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #71a51d !important;
+    display: flex;
+    justify-content: space-between;
+}
+main .left .bottom .head p{
+	font-size: 14px;
+	display: block;
+    padding: 0px 0px 0px 10px;
+    color: #fff;
+    font-weight: bold;
+}
+main .left .bottom .head span{
+	margin-right: 5px;
+	line-height: 36px;
+} 
+main .left .bottom .head span a {
+	color: #fff;
+	font-size: 12px;
+}
+main .left .bottom .news{
+	padding: 10px;
+    line-height: 30px;
+    border: 1px solid #cecece;
+}
+main .left .bottom .news li{
+	border-bottom: 1px dotted #cecece;
+}
+main .left .bottom .news li a{
+	font-size: 12px;
+    line-height: 34px;
+    height: 34px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    padding-left: 5px;
+    color: #333;
+}
+main .right{
+	width: 75%;
+	height: 583px;
+	font-size: 12px;
+    font-family: "微软雅黑","Helvetica Neue",Helvetica,Arial!important;
+	
+}
+main .right .bread{
+	width: 100%;
+	height: 43px;
+	border-top: 3px solid;
+	border-color: #6a3f75 !important;
+	line-height: 40px;
+	box-sizing: content-box;
+	padding-left: 10px;
+}
+main .right .bread .box{
+	width: 195px;
+	height: 43px;
+	display: flex;
+	justify-content: space-between;
+}
+main .right .bread a{
+	display: block;
+	color: #333;
+}
+main .right .bread a:nth-child(4){
+	display: block;
+	color: #333;
+	color: #71a51d !important;
+}
+main .right .imgbox{
+	padding-top: 5px;
+	padding-bottom: 10px;
+	height: 300px;
+}
+main .right .imgbox img{
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+}
+main .right P:nth-child(3){
+	height: 50px;
+	line-height: 2.1em;
+    overflow: hidden;
+    color: #333;
+    text-indent: 2em;
+    font-size: 12px;
+}
+main .right P:nth-child(4){
+	height: 100px;
+	line-height: 2.1em;
+    overflow: hidden;
+    color: #333;
+    text-indent: 2em;
+    font-size: 12px;
+}
+main .right P:nth-child(5){
+	height: 50px;
+	line-height: 2.1em;
+    overflow: hidden;
+    color: #333;
+    text-indent: 2em;
+    font-size: 12px;
+}
+
+
+
+footer{
+	position: relative;
+	width: 1070px;
+	height: 177px;
+	background-color: #71a51d !important;
+	margin: 0 auto;
+}
+footer::before{
+	content: "";
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid;
+    border-left: 20px solid transparent;
+    opacity: 0.8;
+    border-bottom-color: #71a51d !important;
+}
+footer::after{
+	content: "";
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid;
+    border-right: 20px solid transparent;
+    opacity: 0.8;
+    border-bottom-color: #71a51d !important;
+}
+.foot1{
+	width: 1030px;
+	height: 24px;
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 24px;
+}
+.foot2{
+	width: 1030px;
+	height: 112px;
+	padding: 10px 20px;
+	border-top: 1px solid #fff;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.foot2 .left{
+	width: 824px;
+	height: 40px;
+	text-align: left;
+	
+}
+.foot2 .left p{
+	color: #fff;
+	font-size: 12px;
+    line-height: 20px;
+    font-family: "微软雅黑","Helvetica Neue",Helvetica,Arial!important;
+}
+.foot2 .left p a{
+	margin-right: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #fff;
+    box-sizing: content-box;
+    font-size: 12px;
+    line-height: 20px;
+}
+.foot2 .right{
+
+	width: 206px;
+	height: 102px;
+	padding-top: 10px;
+}
+.foot2 .right img{
+	margin: 0 auto;
+}
+.foot2 .right .shuoming{
+	width: 206px;
+	height: 17px;
+	text-align: center;
+    padding: 5px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+}

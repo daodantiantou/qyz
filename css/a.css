@@ -1,0 +1,236 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-15 10:57:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-15 17:54:44
+*/
+@import url('base.css');
+body{
+	font-size: 12px;
+	line-height: 18px;
+	font-family: "宋体", "Simsun";
+	color: #868686;
+}
+header{
+	width: 100%;
+	height: 42px;
+    min-width: 1003px;
+    padding-top: 41px;
+    padding-bottom: 19px;
+}
+header .header{
+	height: 42px;
+    width: 1003px;
+    margin: 0 auto 0;
+    
+}
+
+header .header .logo{
+	padding-right: 194px;
+	float: left;
+	
+}
+header .header .logo a{
+	display: block;
+	width: 173px;
+	height: 49px; 
+	display: flex;
+
+}
+header .header .nav{
+	width: 500px;
+	height: 100%;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+header .header .nav .navs{
+	font-size: 14px;
+	font-weight: 600;
+}
+header .header .nav .navs:nth-of-type(odd):hover{
+	cursor: pointer;
+	color: #ff6700;
+}
+.mainimg{
+	width: 1274px;
+	height: 229px;
+	margin: 0 auto;
+	background: url('../img/list1.jpg');
+}
+main{
+	width: 936px;
+	height: 900px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-top: 32px;
+}
+main .left{
+	width: 249px;
+	height: 504px;
+
+}
+main .left .top{
+	width: 247px;
+	height: 29px;
+	background: url('../img/con1.jpg') no-repeat;
+}
+main .left .top:nth-child(3){
+	width: 247px;
+	height: 29px;
+	background: url('../img/con2.jpg') no-repeat;
+}
+main .left .nav{
+	width: 235px;
+	height: 192px;
+	padding-bottom: 14px;
+    padding-left: 12px;
+    padding-top: 15px;
+}
+main .left .nav li a{
+	display: block;
+	width: 235px;
+	height: 24px;
+	line-height: 24px;
+	color: #7a7a7a;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+main .right{
+	width: 652px;
+	height: 943px;
+}
+main .right .nav{
+	width: 652px;
+	height: 39px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+main .right .nav .navs:nth-child(1){
+	cursor: pointer;
+	width: 81px;
+	height: 39px;
+	background: url('../img/nav1.png');
+}
+main .right .nav .navs:nth-child(2){
+	cursor: pointer;
+	width: 81px;
+	height: 39px;
+	background: url('../img/nav2.png');
+}
+main .right .nav .navs:nth-child(3){
+	cursor: pointer;
+	width: 81px;
+	height: 39px;
+	background: url('../img/nav3.png');
+}
+main .right .nav .navs:nth-child(4){
+	cursor: pointer;
+	width: 81px;
+	height: 39px;
+	background: url('../img/nav4.png');
+}
+main .right .nav .navs:nth-child(5){
+	cursor: pointer;
+	width: 81px;
+	height: 39px;
+	background: url('../img/nav5.png');
+}
+main .right .nav .navs:nth-child(6){
+	cursor: pointer;
+	width: 81px;
+	height: 39px;
+	background: url('../img/nav6.png');
+}
+main .right .nav .navs:nth-child(7){
+	cursor: pointer;
+	width: 81px;
+	height: 39px;
+	background: url('../img/nav7.png');
+}
+main .right .nav .navs:nth-child(8){
+	cursor: pointer;
+	width: 81px;
+	height: 39px;
+	background: url('../img/nav8.png');
+}
+main .right .weizhi{
+	width: 260px;
+	height: 18px;
+	padding: 12px 0 9px;
+	display: flex;
+	justify-content: space-between;
+}
+main .right .weizhi a {
+	color: #868686;
+}
+main .right .con{
+	width: 652px;
+	height: 780px;
+	padding-top: 22px;
+	
+}
+main .right .con .title{
+	width: 596px;
+	height: 28px;
+	margin:0 0 14px 28px;
+	text-align: center;
+    color: #bf0000;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+}
+main .right .con .line{
+	height: 1px;
+    width: 596px;
+    margin-left: 28px;
+    background-color: #d4d4d4;
+}
+main .right .con .time{
+	width: 596px;
+	height: 18px;
+    margin-left: 28px;
+    padding-top: 15px;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 24px;
+
+}
+main .right .con .cons{
+	width: 590px;
+	height: 570px;
+    margin-left: 28px;
+    padding-bottom: 22px;
+    line-height: 28px;
+    color: #585858;
+
+}
+main .right .con .bottom{
+	width: 596px;
+	height: 18px;
+	margin-left: 28px;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-top: 22px;
+
+}
+footer{
+	width: 100%;
+	height: 77px;
+	background-color: #e4e4e4;
+	text-align: center;
+	line-height: 77px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer .box1{
+	width: 579px;
+	height: 16px;
+	background: url('../img/li2.jpg');
+}

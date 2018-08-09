@@ -1,0 +1,280 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-14 20:58:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-15 17:51:17
+*/
+@import url('base.css');
+body{
+	font-size: 12px;
+	line-height: 18px;
+	font-family: "宋体", "Simsun";
+	color: #868686;
+}
+header{
+	width: 100%;
+	height: 42px;
+    min-width: 1003px;
+    padding-top: 41px;
+    padding-bottom: 19px;
+}
+header .header{
+	height: 42px;
+    width: 1003px;
+    margin: 0 auto 0;
+    
+}
+
+header .header .logo{
+	padding-right: 194px;
+	float: left;
+	
+}
+header .header .logo a{
+	display: block;
+	width: 173px;
+	height: 49px; 
+	display: flex;
+
+}
+header .header .nav{
+	width: 500px;
+	height: 100%;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+header .header .nav .navs{
+	font-size: 14px;
+	font-weight: 600;
+}
+header .header .nav .navs:nth-of-type(odd):hover{
+	cursor: pointer;
+	color: #ff6700;
+}
+.mainimg{
+	width: 1274px;
+	height: 229px;
+	margin: 0 auto;
+	background: url('../img/list1.jpg');
+}
+main{
+	width: 929px;
+	height: 808px;
+	margin: 21px auto 0;
+}
+main .main1{
+	width: 100%;
+	height: 306px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 21px;
+}
+main .main1 .con{
+	width: 449px;
+	height: 306px;
+	text-align: center;
+
+}
+main .main1 .con .con1{
+	display: block;
+	background-color: #f2f2f2;
+	line-height: 28px;
+    font-weight: bold;
+}
+main .main1 .con .title{
+	width: 447px;
+	height: 29px;
+	display: flex;
+	justify-content: space-between;
+}
+main .main1 .con .title .left{
+	width: 120px;
+	height: 28px;
+	background: url('../img/list3.jpg');
+}
+main .main1 .con .title .right{
+	cursor: pointer;
+	width: 90px;
+	height: 28px;
+	background: url('../img/list4.png');
+}
+main .main1 .con .body{
+	width: 414px;
+	height: 224px;
+	padding: 22px 0;
+	margin: 0 auto;
+	
+}
+main .main1 .con .body li a{
+	display: block;
+	text-align: left;
+	line-height: 28px;
+    font-size: 14px;
+    color: #868686;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+main .main1 .con .body li span{
+	float: right;
+	color: #7a7a7a;
+}
+main .main2{
+	width: 929px;
+	height: 210px;
+	padding-top: 10px;
+	margin: 0 auto 0;
+}
+main .main2 .title{
+	width: 929px;
+	height: 28px;
+	display: flex;
+	justify-content: space-between;
+}
+main .main2 .title .con:nth-child(1){
+	width: 86px;
+	height: 28px;
+	margin-left: 11px;
+	background: url('../img/list5.jpg');
+	float: left;
+}
+main .main2 .title .con:nth-child(2){
+	cursor: pointer;
+	width: 71px;
+	height: 23px;
+	margin-left: 19px;
+	background: url('../img/list6.jpg');
+	float: left;
+}
+main .main2 .title .con:nth-child(3){
+	cursor: pointer;
+	width: 71px;
+	height: 23px;
+	margin-left: 19px;
+	background: url('../img/list7.jpg');
+	float: left;
+}
+main .main2 .title .con:nth-child(4){
+	cursor: pointer;
+	width: 71px;
+	height: 23px;
+	margin-left: 19px;
+	background: url('../img/list8.jpg');
+	float: left;
+}
+main .main2 .title .title2{
+	cursor: pointer;
+	width: 90px;
+	height: 28px;
+	background: url('../img/list4.png');
+}
+main .main2 .body{
+	width: 906px;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .main2 .body .con{
+	width: 426px;
+	height: 24px;
+}
+main .main2 .body .con a{
+	display: block;
+	text-align: left;
+	line-height: 24px;
+    font-size: 12px;
+    color: #868686;
+}
+main .main2 .body .con span{
+	float: right;
+	color: #7a7a7a;
+}
+
+
+
+main .main3{
+	width: 929px;
+	height: 210px;
+	padding-top: 10px;
+	margin: 0 auto 0;
+}
+main .main3 .title{
+	width: 929px;
+	height: 28px;
+	display: flex;
+	justify-content: space-between;
+}
+main .main3 .title .con:nth-child(1){
+	width: 86px;
+	height: 28px;
+	margin-left: 11px;
+	background: url('../img/l1.jpg');
+	float: left;
+}
+main .main3 .title .con:nth-child(2){
+	cursor: pointer;
+	width: 71px;
+	height: 23px;
+	margin-left: 19px;
+	background: url('../img/l2.jpg');
+	float: left;
+}
+main .main3 .title .con:nth-child(3){
+	cursor: pointer;
+	width: 83px;
+	height: 23px;
+	margin-left: 19px;
+	background: url('../img/l4.jpg');
+	float: left;
+}
+main .main3 .title .title2{
+	cursor: pointer;
+	width: 90px;
+	height: 28px;
+	background: url('../img/list4.png');
+}
+main .main3 .body{
+	width: 906px;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .main3 .body .con{
+	width: 426px;
+	height: 24px;
+}
+main .main3 .body .con a{
+	display: block;
+	text-align: left;
+	line-height: 24px;
+    font-size: 12px;
+    color: #868686;
+}
+main .main3 .body .con span{
+	float: right;
+	color: #7a7a7a;
+}
+footer{
+	width: 100%;
+	height: 77px;
+	background-color: #e4e4e4;
+	text-align: center;
+	line-height: 77px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer .box1{
+	width: 579px;
+	height: 16px;
+	background: url('../img/li2.jpg');
+}

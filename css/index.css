@@ -1,0 +1,255 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-10 13:03:30
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-10 19:22:01
+*/
+@import url('base.css');
+body{
+	background-color: #319AFC;
+}
+.header{
+	width: 100%;
+    height: 60px;
+    background: url('../img/header-bg.png') repeat; 
+}
+.header .top{
+	height: 56px;
+	margin: 0 auto;
+    width: 980px;
+    overflow: hidden; 
+}
+.header .top .logo{
+	width: 302px;
+    height: 40px;
+    background: url('../img/logo.png') no-repeat;
+    margin-top: 10px;
+    float: left;
+}
+.header .top span{
+	float: right;
+}
+.header .top span a{
+	display: inline;
+    padding: 6px;
+    background: #2c6fd3;
+    font-size: 12px;
+    margin-left: 8px;
+    color: #95cbfd;
+    line-height: 56px;
+    cursor: pointer;
+    font-family: Arial,SimSun,sans-serif;
+}
+.header .top span a:hover{
+	color: #fff;
+	background-color: #319AFC;
+}
+.main{
+	margin: 0 auto;
+    width: 980px;
+    height: 715px;
+    background: url('../img/main.jpg') no-repeat;
+}
+.main .auto{
+	height: 110px;
+}
+.main .mainbox{
+    width: 870px;
+    height: 432px;
+    margin: 0 55px;
+}
+.main .mainbox .lis-clearfix{
+    display: flex;
+    justify-content: space-between;
+}
+.main .mainbox .lis-clearfix li{
+    width: 286px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main .mainbox .lis-clearfix li:nth-child(1) .shang{
+    position: relative;
+    width: 286px;
+    height: 140px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.main .mainbox .lis-clearfix li:nth-child(1) .shang:hover .con{
+    top: -140px;
+    transition: all 0.5s;
+}
+.main .mainbox .lis-clearfix li:nth-child(1) .shang .con{
+    position: absolute;
+    width: 286px;
+    height: 280px;
+    top: 0;
+    left: 0;
+}
+.main .mainbox .lis-clearfix li:nth-child(1) .shang .con .onepage{
+    width: 266px;
+    height: 120px;
+    padding: 10px;
+    background-image: url('../img/main1.png');
+}
+.main .mainbox .lis-clearfix li:nth-child(1) .shang .con .twopage{
+    width: 266px;
+    height: 120px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    text-indent: 2em;
+    background: #FFF;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.main .mainbox .lis-clearfix li:nth-child(1) .xia{
+    width: 286px;
+    height: 286px;   
+}
+.main .mainbox .lis-clearfix li:nth-child(2) .xia{
+    position: relative;
+    width: 286px;
+    height: 140px;
+    background-color: #102EC4;
+    overflow: hidden;
+}
+.main .mainbox .lis-clearfix li:nth-child(2) .xia:hover .con{
+    top: -140px;
+    transition: all 0.5s;
+}
+.main .mainbox .lis-clearfix li:nth-child(2) .xia .con{
+    position: absolute;
+    width: 286px;
+    height: 280px;
+    top: 0;
+    left: 0;
+}
+.main .mainbox .lis-clearfix li:nth-child(2) .xia .con .onepage{
+    width: 266px;
+    height: 120px;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    /* background-image: url('../img/main1.png'); */
+}
+.main .mainbox .lis-clearfix li:nth-child(2) .xia .con .onepage .pngFix-about{
+    width: 35px;
+    height: 26px;
+    background: url('../img/main5.png') no-repeat 0 0;
+    display: block;
+    margin: 20px auto;
+}
+.main .mainbox .lis-clearfix li:nth-child(2) .xia .con .twopage{
+    width: 266px;
+    height: 120px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    text-indent: 2em;
+    background: #FFF;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.main .mainbox .lis-clearfix li:nth-child(2) .shang{
+    width: 286px;
+    height: 286px;
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .shang{
+    position: relative;
+    width: 286px;
+    height: 286px;
+    overflow: hidden;
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .shang:hover .con{
+    top: -286px;
+    transition: all 0.5s;
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .shang .con{
+    position: absolute;
+    width: 286px;
+    height: 572px;
+    top: 0;
+    left: 0;
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .shang .con .onepage{
+    width: 266px;
+    height: 266px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: right;
+    color: #fff;
+    background-color: #2C6FD3;
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .shang .con .onepage .pngFix-about{
+    width: 35px;
+    height: 26px;
+    background: url('../img/main5.png') no-repeat 0 0;
+    display: block;
+    margin: 20px auto;
+    background-position: 0 -26px;
+    margin-top: 90px;
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .xia{
+    position: relative;
+    width: 286px;
+    height: 140px;
+    background-color: #009E44;
+    overflow: hidden;
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .xia:hover .con{
+    top: -140px;
+    transition: all 0.5s;
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .xia .con{
+    position: absolute;
+    width: 286px;
+    height: 280px;
+    top: 0;
+    left: 0;
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .xia .con .onepage{
+    width: 266px;
+    height: 120px;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    /* background-image: url('../img/main1.png'); */
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .xia .con .onepage .pngFix-about{
+    width: 35px;
+    height: 26px;
+    background: url('../img/main5.png') no-repeat 0 0;
+    display: block;
+    margin: 20px auto;
+    background-position: 0 -78px;
+}
+.main .mainbox .lis-clearfix li:nth-child(3) .xia .con .twopage{
+    width: 266px;
+    height: 120px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    text-indent: 2em;
+    background: #FFF;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-image: url('../img/main7.jpg');
+}
+.main .footer{
+    width: 980px;
+    font-size: 12px;
+    color: #95cbfd;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main .footer a{
+    color: #95cbfd;
+    font-size: 12px;
+}
